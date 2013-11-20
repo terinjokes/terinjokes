@@ -1,0 +1,29 @@
+{
+  "name": "terinjokes",
+  "version": "0.0.1",
+  "description": "Terin's Jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/terinjokes/terinjokes"
+  },
+  "keywords": [
+    "jokes"
+  ],
+  "author": "Terin Stock <terinjokes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terinjokes/terinjokes/issues"
+  },
+  "homepage": "https://github.com/terinjokes/terinjokes",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.14.0"
+  },
+  "dependencies": {
+    "lodash.random": "~2.3.0"
+  }
+}
