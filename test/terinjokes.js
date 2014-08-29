@@ -1,22 +1,12 @@
-/* global describe, it*/
 'use strict';
-var chai = require('chai'),
-		expect = chai.expect,
+var test = require('tape'),
 		terinjokes = require('../');
 
-describe('terinjokes', function() {
-	it('should export a function', function() {
-		expect(terinjokes).to.be.a('function');
-	});
+test('terinjokes', function(t) {
+	t.plan(3);
+	t.equals(typeof terinjokes, 'function', 'should be a function');
 
-	it('should return a joke', function() {
-		var joke = terinjokes();
-		expect(joke).to.be.a('string');
-	});
-
-	it('should be funny', function() {
-		/* jshint expr:true*/
-		var joke = terinjokes();
-		expect(joke.laugher).to.exist;
-	});
+	var joke = terinjokes();
+	t.equals(typeof joke, 'string', 'should be a string');
+	t.true(joke.laughter, 'should be funny');
 });

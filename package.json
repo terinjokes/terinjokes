@@ -4,7 +4,7 @@
   "description": "Terin's Jokes",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/terinjokes/terinjokes",
   "devDependencies": {
-    "chai": "~1.8.1",
-    "mocha": "~1.14.0"
+    "tape": "^2.14.0"
   },
   "dependencies": {
     "lodash.random": "~2.3.0"
