@@ -32,6 +32,6 @@
     "coverage-html": "istanbul cover node_modules/argg test/*.js --report html",
     "rm": "rimraf ./coverage",
     "test": "npm run coverage && npm run rm",
-    "test-report": "npm run coverage && npm run codeclimate && npm run rm"
+    "test-report": "npm run coverage; npm run codeclimate && npm run rm"
   }
 }
