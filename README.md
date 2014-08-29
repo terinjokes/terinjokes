@@ -1,4 +1,4 @@
-# Terin's Jokes
+# Terin's Jokes [![Build Status](http://img.shields.io/travis/terinjokes/terinjokes.svg?style=flat)](https://travis-ci.org/terinjokes/terinjokes) [![](http://img.shields.io/npm/dm/terinjokes.svg?style=flat)](https://www.npmjs.org/package/terinjokes) [![](http://img.shields.io/npm/v/terinjokes.svg?style=flat)](https://www.npmjs.org/package/terinjokes) [![](http://img.shields.io/codeclimate/github/terinjokes/terinjokes.svg?style=flat)](https://codeclimate.com/github/terinjokes/terinjokes) [![](http://img.shields.io/codeclimate/coverage/github/terinjokes/terinjokes.svg?style=flat)](https://codeclimate.com/github/terinjokes/terinjokes)
 
 This `terinjokes` modules return's some of Terin's comedic goldmines!
 
