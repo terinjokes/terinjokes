@@ -5,3 +5,5 @@ var random = require('lodash.random');
 module.exports = function terinjokes() {
 	return jokes[random(0, jokes.length-1)];
 };
+
+module.exports.VERSION = require('./version');

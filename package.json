@@ -7,13 +7,17 @@
     "url": "https://github.com/terinjokes/terinjokes/issues"
   },
   "dependencies": {
-    "lodash.random": "^2.4.1"
+    "lodash.random": "^2.4.1",
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "argg": "0.0.1",
     "coveralls": "^2.11.4",
     "hjson": "^1.7.4",
     "istanbul": "^0.3.0",
+    "leftpad": "0.0.0",
+    "mdast": "^2.1.0",
+    "mdast-man": "^1.1.1",
     "tape": "^2.14.0"
   },
   "homepage": "https://github.com/terinjokes/terinjokes",
@@ -26,12 +30,16 @@
     "type": "git",
     "url": "git://github.com/terinjokes/terinjokes"
   },
+  "bin": "./bin/terinjokes.js",
   "files": [
     "index.js",
-    "jokes.json"
+    "jokes.json",
+    "version.js",
+    "bin/terinjokes.js",
+    "man/terinjokes.7"
   ],
   "scripts": {
-    "prepublish": "hjson -j jokes.hjson > jokes.json",
+    "prepublish": "hjson -j jokes.hjson > jokes.json && ./bin/versionify.js && ./bin/manify.js",
     "test": "istanbul cover node_modules/argg test/*.js --report lcovonly",
     "coverage": "npm test && cat ./coverage/lcov.info | coveralls"
   }

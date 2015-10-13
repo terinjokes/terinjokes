@@ -2,3 +2,5 @@ node_modules/
 dist/
 coverage/
 jokes.json
+version.js
+man/terinjokes.7
