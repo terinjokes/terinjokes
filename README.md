@@ -1,4 +1,4 @@
-# Terin's Jokes [![Build Status](http://img.shields.io/travis/terinjokes/terinjokes.svg?style=flat)](https://travis-ci.org/terinjokes/terinjokes) [![](http://img.shields.io/npm/dm/terinjokes.svg?style=flat)](https://www.npmjs.org/package/terinjokes) [![](http://img.shields.io/npm/v/terinjokes.svg?style=flat)](https://www.npmjs.org/package/terinjokes) [![](http://img.shields.io/codeclimate/github/terinjokes/terinjokes.svg?style=flat)](https://codeclimate.com/github/terinjokes/terinjokes) [![](http://img.shields.io/codeclimate/coverage/github/terinjokes/terinjokes.svg?style=flat)](https://codeclimate.com/github/terinjokes/terinjokes)
+# Terin's Jokes [![Build Status](https://img.shields.io/travis/terinjokes/terinjokes/master.svg)](https://travis-ci.org/terinjokes/terinjokes) [![](https://img.shields.io/npm/dm/terinjokes.svg)](https://www.npmjs.org/package/terinjokes) [![](https://img.shields.io/npm/v/terinjokes.svg)](https://www.npmjs.org/package/terinjokes) [![](https://img.shields.io/coveralls/terinjokes/terinjokes/master.svg)](https://coveralls.io/github/terinjokes/terinjokes)
 
 This `terinjokes` modules return's some of Terin's comedic goldmines!
 
