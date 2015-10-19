@@ -41,6 +41,6 @@
   "scripts": {
     "prepublish": "hjson -j jokes.hjson > jokes.json && ./bin/versionify.js && ./bin/manify.js",
     "test": "istanbul cover tape test/*.js --report lcovonly",
-    "coverage": "npm test && cat ./coverage/lcov.info | coveralls"
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   }
 }
