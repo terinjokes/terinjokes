@@ -15,8 +15,8 @@
     "hjson": "^1.7.4",
     "istanbul": "^0.4.0",
     "leftpad": "0.0.0",
-    "mdast": "^2.1.0",
-    "mdast-man": "^1.1.1",
+    "remark": "^3.0.0",
+    "remark-man": "^2.0.1",
     "tape": "^4.2.1"
   },
   "homepage": "https://github.com/terinjokes/terinjokes",

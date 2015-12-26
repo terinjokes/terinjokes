@@ -3,14 +3,14 @@
 var fs = require('fs');
 var path = require('path');
 
-var mdast = require('mdast');
-var man = require('mdast-man');
+var remark = require('remark');
+var man = require('remark-man');
 var VERSION = require('../version');
 
 var mdLoc = path.join(__dirname, '../man/terinjokes.7.md');
 var manLoc = path.join(__dirname, '../man/terinjokes.7');
 
-var processor = mdast().use(man, {
+var processor = remark().use(man, {
   version: VERSION
 });
 
