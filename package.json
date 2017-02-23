@@ -16,7 +16,7 @@
     "istanbul": "^0.4.0",
     "leftpad": "0.0.0",
     "remark": "^5.0.1",
-    "remark-man": "^3.0.0",
+    "remark-man": "^5.0.0",
     "tape": "^4.2.1"
   },
   "homepage": "https://github.com/terinjokes/terinjokes",
