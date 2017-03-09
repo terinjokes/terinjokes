@@ -1,5 +1,7 @@
 # Terin's Jokes [![Build Status](https://img.shields.io/travis/terinjokes/terinjokes/master.svg)](https://travis-ci.org/terinjokes/terinjokes) [![](https://img.shields.io/npm/dm/terinjokes.svg)](https://www.npmjs.org/package/terinjokes) [![](https://img.shields.io/npm/v/terinjokes.svg)](https://www.npmjs.org/package/terinjokes) [![](https://img.shields.io/coveralls/terinjokes/terinjokes/master.svg)](https://coveralls.io/github/terinjokes/terinjokes)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/terinjokes/terinjokes.svg)](https://greenkeeper.io/)
+
 This `terinjokes` modules return's some of Terin's comedic goldmines!
 
 ```javascript
